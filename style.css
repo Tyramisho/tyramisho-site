@@ -2,23 +2,28 @@ body {
     background-color: #00224B;
     color: #EFFD5F;
 }
-.art {
-    border: 2px solid #EFFD5F;
-    padding: 50px;
-    margin: 5px;
-}
-.bubble1 {
-    border: 20px solid #FFFFFF;
-    padding: 20px;
-    margin: 10 px;
-    width: 30 px
-}
-.bubble2 {
-    border: 20px solid #FFFFFF;
-    padding: 20px;
-    margin: 10 px;
-    width: 30 px
-}
+
 .container {
     display: flex;
+}
+
+.art {
+    border: 2px solid #EFFD5F;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.asks {
+    border: 2px solid #EFFD5F;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.about {
+    border: 2px solid #EFFD5F;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
 }
