@@ -8,25 +8,23 @@ div {
 }
 .container {
     display: flex;
+    gap: 50px;
 }
 
 .art {
     border: 2px solid #EFFD5F;
     padding: 20px;
-    margin: 20px;
     width: 300px;
 }
 
 .asks {
     border: 2px solid #EFFD5F;
     padding: 20px;
-    margin: 20px;
     width: 300px;
 }
 
 .about {
     border: 2px solid #EFFD5F;
     padding: 20px;
-    margin: 20px;
     width: 300px;
 }
