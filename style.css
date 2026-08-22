@@ -4,4 +4,6 @@ body {
 }
 .art {
     border: 2px solid #EFFD5F;
+    padding: 20px;
+    margin: 20px;
 }
