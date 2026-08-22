@@ -9,12 +9,26 @@ div {
 .container {
     display: flex;
     gap: 50px;
-    justify-content: space-around;
 }
 
 .card {
     border: 2px solid #EFFD5F;
+    position: apsolute;
     padding: 20px;
     width: 300px;
     margin: 5px;
+}
+.art {
+    top: 100px;
+    left: 80px;
+}
+
+.asks {
+    top: 250px;
+    left: 500px;
+}
+
+.about {
+    top: 80px;
+    left: 900px;
 }
