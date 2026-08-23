@@ -1,31 +1,76 @@
 body {
+    margin: 0;
     background-color: #00224B;
     color: #EFFD5F;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
-/* stvari koje su zajedničke svim karticama */
-.card {
+.page {
+    padding: 40px;
+}
+
+.hero {
+    min-height: 700px;
+    position: relative;
+}
+
+.title-block {
     position: absolute;
-    border: 2px solid #EFFD5F;
-    padding: 20px;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0 0 20px 0;
+}
+
+.pfp-placeholder {
     width: 300px;
+    height: 260px;
+    border: 3px solid #EFFD5F;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 48px;
 }
 
-/* svaka kartica dobiva svoju poziciju */
-.art {
-    top: 100px;
-    left: 80px;
-    transform: rotate(-3deg);
+.about-card {
+    position: absolute;
+    top: 140px;
+    left: 430px;
+
+    width: 260px;
+    padding: 30px;
+
+    border: 2px dashed #EFFD5F;
+    transform: rotate(-2deg);
 }
 
-.asks {
-    top: 300px;
-    left: 500px;
+.shortcuts {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shortcuts a {
+    color: #EFFD5F;
+    border: 2px solid #EFFD5F;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.likes-card {
+    position: absolute;
+    top: 420px;
+    right: 120px;
+
+    width: 300px;
     transform: rotate(2deg);
-}
-
-.about {
-    top: 80px;
-    left: 900px;
-    transform: rotate(4deg);
 }
