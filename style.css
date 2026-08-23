@@ -74,3 +74,40 @@ h1 {
     width: 300px;
     transform: rotate(2deg);
 }
+.ask-section {
+    width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+
+    border: 2px dashed #EFFD5F;
+    transform: rotate(-1deg);
+}
+
+.ask-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ask-form textarea,
+.ask-form input {
+    background-color: #00224B;
+    color: #EFFD5F;
+    border: 2px solid #EFFD5F;
+    padding: 12px;
+
+    font-family: inherit;
+}
+
+.ask-form button {
+    width: 120px;
+
+    background-color: #EFFD5F;
+    color: #00224B;
+
+    border: none;
+    padding: 12px;
+
+    font-family: inherit;
+    cursor: pointer;
+}
