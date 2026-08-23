@@ -1,3 +1,5 @@
+/* WHOLE PAGE */
+
 body {
     margin: 0;
     background-color: #00224B;
@@ -8,6 +10,9 @@ body {
 .page {
     padding: 40px;
 }
+
+
+/* TOP / HERO */
 
 .hero {
     min-height: 700px;
@@ -28,6 +33,7 @@ h1 {
 .pfp-placeholder {
     width: 300px;
     height: 260px;
+
     border: 3px solid #EFFD5F;
 
     display: flex;
@@ -36,6 +42,9 @@ h1 {
 
     font-size: 48px;
 }
+
+
+/* ABOUT */
 
 .about-card {
     position: absolute;
@@ -46,8 +55,12 @@ h1 {
     padding: 30px;
 
     border: 2px dashed #EFFD5F;
+
     transform: rotate(-2deg);
 }
+
+
+/* SHORTCUTS */
 
 .shortcuts {
     position: absolute;
@@ -61,10 +74,15 @@ h1 {
 
 .shortcuts a {
     color: #EFFD5F;
+
     border: 2px solid #EFFD5F;
     padding: 12px 20px;
+
     text-decoration: none;
 }
+
+
+/* LIKES */
 
 .likes-card {
     position: absolute;
@@ -72,14 +90,21 @@ h1 {
     right: 120px;
 
     width: 300px;
+
     transform: rotate(2deg);
 }
+
+
+/* ASK SECTION */
+
 .ask-section {
     width: 600px;
+
     margin: 80px auto;
     padding: 30px;
 
     border: 2px dashed #EFFD5F;
+
     transform: rotate(-1deg);
 }
 
@@ -93,6 +118,7 @@ h1 {
 .ask-form input {
     background-color: #00224B;
     color: #EFFD5F;
+
     border: 2px solid #EFFD5F;
     padding: 12px;
 
